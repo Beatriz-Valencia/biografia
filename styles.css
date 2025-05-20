@@ -72,6 +72,7 @@ nav {position:sticky;grid-area: header;}
 
 	@media only screen and (max-width: 600px) { /*teléfonos móviles*/
 		nav {grid-area: 1 / span 2;margin:1px;font-size: 12px;}
+	
 		section {grid-area: 2 / span 2; margin:5px;}
 	}	
   
@@ -132,7 +133,7 @@ aside {margin: -580px 600px -800px 950px;display:flex; width: 194px;;flex-direct
 		@media only screen and (max-width: 768px) {  /*tablets*/
 			nav {grid-area: 1 / span 2;margin:10px;font-size: 12px;}
 			.introform {margin-left:5px; margin-right: 5px ;}
-			.form {grid-area: 2 / span 2; margin-left:5px; margin-right: 5px;}
+			.form { margin-left:5px; margin-right: 5px;}
 		}	
 
 /*General styles*/
